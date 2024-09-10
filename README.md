@@ -2,7 +2,7 @@
 
 If you are building an infrastructure to submit many transactions to an EVM chain concurrently, this utility may be extremely helpful. It handles the transaction lifecycle from preparation to submission with hooks to persist transaction details prior to submitting on-chain.
 
-For the rationale behind it, check out this article: <ref>
+For the rationale behind it, check out this article: (https://medium.com/@mike_31139/web3-transaction-lifecycle-673a25ba7a91)
 
 This is packaged as a NestJS module for simple injection into a typescript based application. It is intended for use within a backend infrastructure.
 
